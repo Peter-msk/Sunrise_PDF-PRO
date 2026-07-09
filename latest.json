@@ -2,38 +2,40 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.1.0",
-  "file_version": "1.1.0.0",
+  "latest_version": "v1.2.0",
+  "file_version": "1.2.0.0",
   "release_date": "2026-07-10",
-  "generated_at": "2026-07-09T15:33:38Z",
+  "generated_at": "2026-07-09T23:53:24Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.1.0/Sunrise_PDF_PRO.exe",
-    "sha256": "90cbb423168d1f3c6040114637073ddcdbc126cb083aed0f89db8302fb408afe",
-    "size_bytes": 49402499
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.2.0/Sunrise_PDF_PRO.exe",
+    "sha256": "7b518fc3c09d1a1513a5e561cb0ef51066264aa19d7fac9a26775e8d57b65568",
+    "size_bytes": 50303289
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.1.0 업데이트 안내",
+    "title": "Sunrise PDF PRO v1.2.0 업데이트 안내",
     "items": [
-      "초기 화면 크기와 좌측 작업 패널 표시를 개선했습니다.",
-      "작업 대시보드와 파일 큐의 카드 경계를 더 명확하게 조정했습니다.",
-      "전체 UI 글꼴과 버튼 구성을 정리했습니다.",
-      "공식 아이콘과 기능 버튼 아이콘을 적용했습니다.",
+      "사용자용 사용 환경 확인 내용을 정리했습니다.",
+      "구조·문법·연결성·빌드 게이트를 재검토했습니다.",
+      "한글 파일명 ZIP 패키징 안정성을 보완했습니다.",
       "HWP/HWPX 문서를 Hancom PDF 기준으로 안정적으로 PDF 변환합니다.",
-      "업데이트는 새 실행파일을 내려받아 교체하는 수동 방식입니다."
+      "업데이트 확인 후 사용자가 동의하면 새 실행파일로 자동 교체합니다."
     ]
   },
   "summary": "화면 구성과 사용성을 개선한 공식 실행파일 배포본입니다.",
-  "release_notes": "- 초기 화면 크기와 좌측 작업 패널 표시를 개선했습니다.\n- 작업 대시보드와 파일 큐의 카드 경계를 더 명확하게 조정했습니다.\n- 전체 UI 글꼴과 버튼 구성을 정리했습니다.\n- 공식 아이콘과 기능 버튼 아이콘을 적용했습니다.\n- HWP/HWPX 문서를 Hancom PDF 기준으로 안정적으로 PDF 변환합니다.\n- 업데이트는 새 실행파일을 내려받아 교체하는 수동 방식입니다.",
+  "release_notes": "- 사용자용 사용 환경 확인 내용을 정리했습니다.\n- 구조·문법·연결성·빌드 게이트를 재검토했습니다.\n- 한글 파일명 ZIP 패키징 안정성을 보완했습니다.\n- HWP/HWPX 문서를 Hancom PDF 기준으로 안정적으로 PDF 변환합니다.\n- 업데이트 확인 후 사용자가 동의하면 새 실행파일로 자동 교체합니다.",
   "policy": {
     "distribution": "group_executable",
     "manual_update_only": true,
     "auto_download_allowed": false,
+    "user_confirmed_download_allowed": true,
+    "user_confirmed_self_replace_allowed": true,
     "auto_install_allowed": false,
     "background_update_allowed": false,
-    "external_script_execution_allowed": false
+    "external_script_execution_allowed": false,
+    "local_update_helper_allowed_after_user_confirm": true
   }
 }
