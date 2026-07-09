@@ -1,4 +1,4 @@
-Sunrise PDF PRO v1.0.0 업데이트 안내
+Sunrise PDF PRO v1.1.0 업데이트 안내
 
 주요 변경사항
 
@@ -8,3 +8,9 @@ Sunrise PDF PRO v1.0.0 업데이트 안내
 - 공식 아이콘과 기능 버튼 아이콘을 적용했습니다.
 - HWP/HWPX 문서를 Hancom PDF 기준으로 안정적으로 PDF 변환합니다.
 - 업데이트는 새 실행파일을 내려받아 교체하는 수동 방식입니다.
+
+업데이트 방법
+
+- GitHub Release에서 Sunrise_PDF_PRO.exe를 내려받습니다.
+- 실행 중인 프로그램을 종료합니다.
+- 기존 실행파일을 새 실행파일로 교체합니다.

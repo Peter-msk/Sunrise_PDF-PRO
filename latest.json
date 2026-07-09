@@ -2,21 +2,21 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.0.0",
-  "file_version": "1.0.0.0",
-  "release_date": "2026-07-09",
-  "generated_at": "2026-07-09T14:49:56Z",
+  "latest_version": "v1.1.0",
+  "file_version": "1.1.0.0",
+  "release_date": "2026-07-10",
+  "generated_at": "2026-07-09T15:33:38Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.0.0/Sunrise_PDF_PRO.exe",
-    "sha256": "aeed88c043f8545e809204fcb930355349bfa3520cadcfed9969e9bdac606f62",
-    "size_bytes": 49397044
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.1.0/Sunrise_PDF_PRO.exe",
+    "sha256": "90cbb423168d1f3c6040114637073ddcdbc126cb083aed0f89db8302fb408afe",
+    "size_bytes": 49402499
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.0.0 업데이트 안내",
+    "title": "Sunrise PDF PRO v1.1.0 업데이트 안내",
     "items": [
       "초기 화면 크기와 좌측 작업 패널 표시를 개선했습니다.",
       "작업 대시보드와 파일 큐의 카드 경계를 더 명확하게 조정했습니다.",
