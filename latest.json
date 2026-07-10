@@ -2,21 +2,21 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.2.0",
-  "file_version": "1.2.0.0",
+  "latest_version": "v1.3.0",
+  "file_version": "1.3.0.0",
   "release_date": "2026-07-10",
-  "generated_at": "2026-07-09T23:53:24Z",
+  "generated_at": "2026-07-10T00:10:49Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.2.0/Sunrise_PDF_PRO.exe",
-    "sha256": "7b518fc3c09d1a1513a5e561cb0ef51066264aa19d7fac9a26775e8d57b65568",
-    "size_bytes": 50303289
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.3.0/Sunrise_PDF_PRO.exe",
+    "sha256": "adfc4567d174a25a1fff3a84e88fb13833ad003f863a477408686e83c038be2f",
+    "size_bytes": 50302571
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.2.0 업데이트 안내",
+    "title": "Sunrise PDF PRO v1.3.0 업데이트 안내",
     "items": [
       "사용자용 사용 환경 확인 내용을 정리했습니다.",
       "구조·문법·연결성·빌드 게이트를 재검토했습니다.",
