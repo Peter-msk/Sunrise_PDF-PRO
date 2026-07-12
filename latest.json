@@ -2,31 +2,32 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.6.0",
-  "file_version": "1.6.0.0",
+  "latest_version": "v1.7.0",
+  "file_version": "1.7.0.0",
   "release_date": "2026-07-12",
-  "generated_at": "2026-07-12T08:44:40Z",
+  "generated_at": "2026-07-12T13:42:59Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.6.0/Sunrise_PDF_PRO.exe",
-    "sha256": "9d6ceb1044584cc9f348743980b4c5144557808623cca455ab271190666556bd",
-    "size_bytes": 52818814
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.7.0/Sunrise_PDF_PRO.exe",
+    "sha256": "47e8e98a7f37d0eacd9877e16f17f19a9e03cd090aa5b4eb500e13a3cf23ca5e",
+    "size_bytes": 51363992
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.6.0 업데이트 안내",
+    "title": "Sunrise PDF PRO v1.7.0 업데이트 안내",
     "items": [
-      "Python DLL과 Microsoft VC 런타임을 EXE에 명시적으로 포함하고 CArchive 누락을 차단합니다.",
-      "업데이트 EXE를 교체 전에 실제 실행하여 python312.dll과 필수 모듈 로드를 확인합니다.",
-      "새 버전이 메인 UI 초기화 health marker를 만들기 전까지 이전 EXE를 보존합니다.",
-      "새 EXE 시작 실패 시 이전 EXE를 자동 복원하고 실패 로그를 남깁니다.",
-      "코드서명 후 최종 사용자용·개발자용 EXE 동적 runtime smoke를 빌드 게이트에 추가했습니다."
+      "검수 게이트를 통과한 프로젝트에 메인 장·하위 항목 계층형 PDF 책갈피를 생성합니다.",
+      "책갈피 제목에 실제 꼬리말 논리 페이지 범위를 표시합니다.",
+      "병합 PDF 원본은 수정하지 않고 검증 완료 복사본에 책갈피와 문서 메타데이터를 적용합니다.",
+      "프로젝트 매니페스트·논리 페이지 검증·통합 QA 보고서를 최종 제출 패키지에 포함합니다.",
+      "포함 파일별 SHA-256 체크섬과 무결성 JSON/TXT, 검증 ZIP을 생성합니다.",
+      "미승인 검수 오류가 남으면 책갈피·제출 패키지 생성을 자동 차단합니다."
     ]
   },
-  "summary": "PyInstaller onefile Python DLL 시작 실패를 교체 전 실제 실행 검증과 자동 rollback으로 차단한 공식 배포본입니다.",
-  "release_notes": "- Python DLL과 Microsoft VC 런타임을 EXE에 명시적으로 포함하고 CArchive 누락을 차단합니다.\n- 업데이트 EXE를 교체 전에 실제 실행하여 python312.dll과 필수 모듈 로드를 확인합니다.\n- 새 버전이 메인 UI 초기화 health marker를 만들기 전까지 이전 EXE를 보존합니다.\n- 새 EXE 시작 실패 시 이전 EXE를 자동 복원하고 실패 로그를 남깁니다.\n- 코드서명 후 최종 사용자용·개발자용 EXE 동적 runtime smoke를 빌드 게이트에 추가했습니다.",
+  "summary": "검증 완료 계층형 책갈피, PDF 메타데이터, SHA-256 최종 제출 패키지를 반영한 v1.7.0 후보본입니다.",
+  "release_notes": "- 검수 게이트를 통과한 프로젝트에 메인 장·하위 항목 계층형 PDF 책갈피를 생성합니다.\n- 책갈피 제목에 실제 꼬리말 논리 페이지 범위를 표시합니다.\n- 병합 PDF 원본은 수정하지 않고 검증 완료 복사본에 책갈피와 문서 메타데이터를 적용합니다.\n- 프로젝트 매니페스트·논리 페이지 검증·통합 QA 보고서를 최종 제출 패키지에 포함합니다.\n- 포함 파일별 SHA-256 체크섬과 무결성 JSON/TXT, 검증 ZIP을 생성합니다.\n- 미승인 검수 오류가 남으면 책갈피·제출 패키지 생성을 자동 차단합니다.",
   "policy": {
     "distribution": "group_executable",
     "manual_update_only": true,
