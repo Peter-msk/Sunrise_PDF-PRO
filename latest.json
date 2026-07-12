@@ -2,21 +2,21 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.5.3",
-  "file_version": "1.5.3.0",
+  "latest_version": "v1.5.4",
+  "file_version": "1.5.4.0",
   "release_date": "2026-07-12",
-  "generated_at": "2026-07-11T15:43:31Z",
+  "generated_at": "2026-07-12T05:17:49Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.5.3/Sunrise_PDF_PRO.exe",
-    "sha256": "631090e921c27737e0781832d321d0b416ba3f6b1a4ebe5117359a10b22e5d8f",
-    "size_bytes": 51196997
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.5.4/Sunrise_PDF_PRO.exe",
+    "sha256": "0d734b88c90bf6c29427991fba1c9161e30231dbd6ab6e5d0d3b07e3f1cc1e04",
+    "size_bytes": 51205414
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.5.3 업데이트 안내",
+    "title": "Sunrise PDF PRO v1.5.4 업데이트 안내",
     "items": [
       "Python DLL과 Microsoft VC 런타임을 EXE에 명시적으로 포함하고 CArchive 누락을 차단합니다.",
       "업데이트 EXE를 교체 전에 실제 실행하여 python312.dll과 필수 모듈 로드를 확인합니다.",
