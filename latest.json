@@ -5,14 +5,14 @@
   "latest_version": "v1.7.4",
   "file_version": "1.7.4.0",
   "release_date": "2026-07-13",
-  "generated_at": "2026-07-13T04:06:17Z",
+  "generated_at": "2026-07-13T04:24:24Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
     "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.7.4/Sunrise_PDF_PRO.exe",
-    "sha256": "eb2dd1ad7a91ef4b86369886b4eeb84751fd69e9547eac5505aac82f84e02467",
-    "size_bytes": 52216584
+    "sha256": "12d4fc8792b411684d67da3064f3cbbc8d343cddefa48bad2c92c78b66ee8fb4",
+    "size_bytes": 52216787
   },
   "notice": {
     "file_name": "notice.txt",
