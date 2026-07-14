@@ -2,34 +2,31 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.7.4",
-  "file_version": "1.7.4.0",
-  "release_date": "2026-07-13",
-  "generated_at": "2026-07-13T04:24:24Z",
+  "latest_version": "v1.9.0",
+  "file_version": "1.9.0.0",
+  "release_date": "2026-07-14",
+  "generated_at": "2026-07-14T04:43:33Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.7.4/Sunrise_PDF_PRO.exe",
-    "sha256": "12d4fc8792b411684d67da3064f3cbbc8d343cddefa48bad2c92c78b66ee8fb4",
-    "size_bytes": 52216787
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.9.0/Sunrise_PDF_PRO.exe",
+    "sha256": "a014305d7b82d4ed009e55fa05af3d393a2824509927833eccfd2f81d6ab0565",
+    "size_bytes": 55014410
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.7.4 업데이트 안내",
+    "title": "Sunrise PDF PRO v1.9.0 업데이트 안내",
     "items": [
-      "서로 다른 폴더의 동일 파일명 PDF도 입력 순서대로 정확히 병합하도록 정규화 캐시 충돌을 수정했습니다.",
-      "모든 입력 PDF의 사전검증이 끝나기 전에는 병합 엔진과 폴백이 시작되지 않아 일부 파일 누락 결과가 성공 처리되지 않습니다.",
-      "병합 PDF와 제출 ZIP을 임시 .part 파일에 완성·검증한 뒤 원자적으로 교체하여 중단 시 불완전 결과가 남지 않습니다.",
-      "Windows 빌드 의존성은 지원 범위 안에서만 설치하며, 무조건 최신판으로 올리는 동작을 제거했습니다.",
-      "실제 예제 PDF로 병합·컬러/A3·논리 페이지·QA·책갈피·SHA-256·ZIP을 통합 회귀검증합니다.",
-      "검수 게이트를 통과한 프로젝트에 메인 장·하위 항목 계층형 PDF 책갈피를 생성합니다.",
-      "책갈피 제목에 실제 꼬리말 논리 페이지 범위를 표시합니다.",
-      "병합 PDF 원본은 수정하지 않고 검증 완료 복사본에 책갈피와 문서 메타데이터를 적용합니다."
+      "Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.",
+      "결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.",
+      "프린터 큐와 현재 변환 단계·경과시간을 확인하는 성능 진단을 추가했습니다.",
+      "네이티브 모듈을 사용할 수 없을 때는 Python 안전 폴백으로 계속 실행합니다.",
+      "기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다."
     ]
   },
-  "summary": "PDF 병합·원자적 출력·빌드 재현성·실제 예제 통합시험을 강화한 v1.7.4 소스 개발 후보본입니다.",
-  "release_notes": "- 서로 다른 폴더의 동일 파일명 PDF도 입력 순서대로 정확히 병합하도록 정규화 캐시 충돌을 수정했습니다.\n- 모든 입력 PDF의 사전검증이 끝나기 전에는 병합 엔진과 폴백이 시작되지 않아 일부 파일 누락 결과가 성공 처리되지 않습니다.\n- 병합 PDF와 제출 ZIP을 임시 .part 파일에 완성·검증한 뒤 원자적으로 교체하여 중단 시 불완전 결과가 남지 않습니다.\n- Windows 빌드 의존성은 지원 범위 안에서만 설치하며, 무조건 최신판으로 올리는 동작을 제거했습니다.\n- 실제 예제 PDF로 병합·컬러/A3·논리 페이지·QA·책갈피·SHA-256·ZIP을 통합 회귀검증합니다.\n- 검수 게이트를 통과한 프로젝트에 메인 장·하위 항목 계층형 PDF 책갈피를 생성합니다.\n- 책갈피 제목에 실제 꼬리말 논리 페이지 범위를 표시합니다.\n- 병합 PDF 원본은 수정하지 않고 검증 완료 복사본에 책갈피와 문서 메타데이터를 적용합니다.",
+  "summary": "Python+C++ 하이브리드 런타임 가드와 단계 텔레메트리를 강화한 v1.9.0 소스 개발 후보본입니다.",
+  "release_notes": "- Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.\n- 결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.\n- 프린터 큐와 현재 변환 단계·경과시간을 확인하는 성능 진단을 추가했습니다.\n- 네이티브 모듈을 사용할 수 없을 때는 Python 안전 폴백으로 계속 실행합니다.\n- 기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다.",
   "policy": {
     "distribution": "group_executable",
     "manual_update_only": true,
