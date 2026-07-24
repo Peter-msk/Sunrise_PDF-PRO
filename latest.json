@@ -2,21 +2,21 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v1.9.0",
-  "file_version": "1.9.0.0",
-  "release_date": "2026-07-14",
-  "generated_at": "2026-07-14T06:46:54Z",
+  "latest_version": "v2.0.0",
+  "file_version": "2.0.0.0",
+  "release_date": "2026-07-24",
+  "generated_at": "2026-07-24T09:12:29Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v1.9.0/Sunrise_PDF_PRO.exe",
-    "sha256": "2c1d4a49d3c2f57c312590c6152bd311e7e45c96fe1d31b95080c03928bf9ce3",
-    "size_bytes": 55054137
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v2.0.0/Sunrise_PDF_PRO.exe",
+    "sha256": "6f7888dfe27d3bfe57517657b8a1f7e43c7af7be90ca921c506f4838a2d05505",
+    "size_bytes": 54724896
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v1.9.0 업데이트 안내",
+    "title": "Sunrise PDF PRO v2.0.0 업데이트 안내",
     "items": [
       "Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.",
       "결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.",
@@ -25,7 +25,7 @@
       "기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다."
     ]
   },
-  "summary": "Python+C++ 하이브리드 런타임 가드와 단계 텔레메트리를 강화한 v1.9.0 소스 개발 후보본입니다.",
+  "summary": "Python+C++ 하이브리드 런타임 가드와 단계 텔레메트리를 강화한 v2.0.0 소스 개발 후보본입니다.",
   "release_notes": "- Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.\n- 결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.\n- 프린터 큐와 현재 변환 단계·경과시간을 확인하는 성능 진단을 추가했습니다.\n- 네이티브 모듈을 사용할 수 없을 때는 Python 안전 폴백으로 계속 실행합니다.\n- 기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다.",
   "policy": {
     "distribution": "group_executable",
@@ -36,6 +36,12 @@
     "auto_install_allowed": false,
     "background_update_allowed": false,
     "external_script_execution_allowed": false,
-    "local_update_helper_allowed_after_user_confirm": true
+    "local_update_helper_allowed_after_user_confirm": true,
+    "signing_mode": "self-signed",
+    "expected_publisher": "Sunrise Group",
+    "authenticode_required": true,
+    "allow_approved_self_signed_untrusted_root": true,
+    "require_trusted_timestamp": false,
+    "signature_policy": "sunrise_group_mandatory_cleaner_boundary"
   }
 }
