@@ -2,21 +2,21 @@
   "schema": "sunrise-group-executable-update-v1",
   "product_name": "Sunrise PDF PRO",
   "channel": "stable",
-  "latest_version": "v2.4.7",
-  "file_version": "2.4.7.0",
+  "latest_version": "v2.4.9",
+  "file_version": "2.4.9.0",
   "release_date": "2026-07-30",
-  "generated_at": "2026-07-30T00:14:19Z",
+  "generated_at": "2026-07-30T04:37:29Z",
   "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
   "download": {
     "type": "exe",
     "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v2.4.7/Sunrise_PDF_PRO.exe",
-    "sha256": "351d2ec6f16bdc181bd0ea41045758d76dbf8b9cf8ebe0251d602df5ac906366",
-    "size_bytes": 49821552
+    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v2.4.9/Sunrise_PDF_PRO.exe",
+    "sha256": "9ff4c2554ef4b7b32f1da2867aaa54c9aae9056664135d778b84a469cd7ee022",
+    "size_bytes": 49953632
   },
   "notice": {
     "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v2.4.7 업데이트 안내",
+    "title": "Sunrise PDF PRO v2.4.9 업데이트 안내",
     "items": [
       "Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.",
       "결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.",
@@ -25,7 +25,7 @@
       "기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다."
     ]
   },
-  "summary": "Python+C++ 하이브리드 런타임 가드와 단계 텔레메트리를 강화한 v2.4.7 소스 개발 후보본입니다.",
+  "summary": "Python+C++ 하이브리드 런타임 가드와 단계 텔레메트리를 강화한 v2.4.9 소스 개발 후보본입니다.",
   "release_notes": "- Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.\n- 결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.\n- 프린터 큐와 현재 변환 단계·경과시간을 확인하는 성능 진단을 추가했습니다.\n- 네이티브 모듈을 사용할 수 없을 때는 Python 안전 폴백으로 계속 실행합니다.\n- 기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다.",
   "policy": {
     "distribution": "group_executable",
