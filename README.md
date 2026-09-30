@@ -1,5 +1,9 @@
 # Sunrise Capture
 
+![Version](https://img.shields.io/badge/version-2.7.0-1668c7)
+![플랫폼](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4)
+![Python](https://img.shields.io/badge/Python-3.1.2-1668c7)
+
 > 화면 캡처, 스크롤 캡처, 다중영역 캡처, 영역 녹화, 이미지 편집을 하나의 작업 흐름으로 사용할 수 있는 Windows 데스크톱 캡처 도구
 
 ## 프로그램 소개
