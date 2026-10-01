@@ -1,6 +1,6 @@
 # Sunrise Capture
 
-![Version](https://img.shields.io/badge/version-2.7.0-1668c7)
+![Version](https://img.shields.io/badge/version-2.7.1-1668c7)
 ![플랫폼](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4)
 ![Python](https://img.shields.io/badge/Python-3.1.2-1668c7)
 
