@@ -1,47 +1,26 @@
 {
-  "schema": "sunrise-group-executable-update-v1",
-  "product_name": "Sunrise PDF PRO",
-  "channel": "stable",
-  "latest_version": "v2.7.0",
-  "file_version": "2.7.0.0",
-  "release_date": "2026-09-29",
-  "generated_at": "2026-09-29T08:35:50Z",
-  "release_page_url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases",
-  "download": {
-    "type": "exe",
-    "file_name": "Sunrise_PDF_PRO.exe",
-    "url": "https://github.com/Peter-msk/Sunrise_PDF-PRO/releases/download/v2.7.0/Sunrise_PDF_PRO.exe",
-    "sha256": "6bc3c09517e128a65225ec96f286541422a7545c9d0babdbf810d594580a7328",
-    "size_bytes": 51916232
-  },
-  "notice": {
-    "file_name": "notice.txt",
-    "title": "Sunrise PDF PRO v2.7.0 업데이트 안내",
-    "items": [
-      "Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.",
-      "결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.",
-      "프린터 큐와 현재 변환 단계·경과시간을 확인하는 성능 진단을 추가했습니다.",
-      "네이티브 모듈을 사용할 수 없을 때는 Python 안전 폴백으로 계속 실행합니다.",
-      "기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다."
-    ]
-  },
-  "summary": "Python+C++ 하이브리드 런타임 가드와 단계 텔레메트리를 강화한 v2.7.0 소스 개발 후보본입니다.",
-  "release_notes": "- Python 업무 로직과 선택형 C++ 런타임 가드를 결합했습니다.\n- 결과 PDF 잠금·원자적 교체·프로세스 생성 토큰·출력 안정화 대기를 네이티브 경로로 보강했습니다.\n- 프린터 큐와 현재 변환 단계·경과시간을 확인하는 성능 진단을 추가했습니다.\n- 네이티브 모듈을 사용할 수 없을 때는 Python 안전 폴백으로 계속 실행합니다.\n- 기존 HWP/HWPX 변환·PDF 검수·병합·책갈피·제출 패키지 기능을 유지합니다.",
-  "policy": {
-    "distribution": "group_executable",
-    "manual_update_only": true,
-    "auto_download_allowed": false,
-    "user_confirmed_download_allowed": true,
-    "user_confirmed_self_replace_allowed": true,
-    "auto_install_allowed": false,
-    "background_update_allowed": false,
-    "external_script_execution_allowed": false,
-    "local_update_helper_allowed_after_user_confirm": true,
-    "signing_mode": "self-signed",
-    "expected_publisher": "Sunrise Group",
-    "authenticode_required": true,
-    "allow_approved_self_signed_untrusted_root": true,
-    "require_trusted_timestamp": false,
-    "signature_policy": "sunrise_group_mandatory_cleaner_boundary"
-  }
+  "schema_version": "1.1",
+  "app_id": "SUNRISE-EIASS-WIN-DESKTOP",
+  "latest_version": "4.6.5",
+  "package_kind": "onefile",
+  "download_url": "https://github.com/Peter-msk/Sunrise-EIASS/releases/download/v4.6.5/Sunrise.EIASS.exe",
+  "download_file_name": "Sunrise EIASS.exe",
+  "asset_name": "Sunrise.EIASS.exe",
+  "sha256": "396ce006fcc2cf42c5f0f9d701ba802bdbbdad9c6f30aea71177fe92d9e0a62e",
+  "release_date": "2026-10-02",
+  "file_size_bytes": 62678232,
+  "notice_url": "https://raw.githubusercontent.com/Peter-msk/Sunrise-EIASS/main/notice.txt",
+  "is_critical": false,
+  "release_notes": [
+    "Sunrise Control v1 \uc911\uc559 \uc2e4\ud589\u00b7\uc5c5\ub370\uc774\ud2b8 \uc815\ucc45 \uc5f0\ub3d9",
+    "Control \ubc0f \uc2e0\uaddc\ubc84\uc804 \ud310\uc815 \uc644\ub8cc \uc804 \uc815\uc0c1 \uc5c5\ubb34\ud654\uba74\uc744 \uc228\uae30\ub294 startup gate \uc801\uc6a9",
+    "\uc2e0\uaddc\ubc84\uc804 \uac10\uc9c0 \uc2dc \uc5c5\ub370\uc774\ud2b8 \uc9c4\ud589 \ub610\ub294 \ucc3d \ub2eb\uae30\u2192\ud504\ub85c\uadf8\ub7a8 \uc885\ub8cc \uac15\uc81c",
+    "EIASS \uac80\uc0c9\u00b7\uc0c1\uc138\u00b7\uc6d0\ubb38 \ud1b5\uc2e0\uc740 \uc0ac\uc6a9\uc790 \uc6b4\uc601\uc815\ucc45\uc5d0 \ub530\ub77c TLS \uc778\uc99d\uc11c \uac80\uc99d\uc744 \uc0ac\uc6a9\ud558\uc9c0 \uc54a\uc74c",
+    "\uae30\uc874 \ub2e4\uc6b4\ub85c\ub4dc \uc7ac\uc0ac\uc6a9 \uc804 \ud30c\uc77c \ud06c\uae30\u00b7\uc2e4\uc81c SHA-256 \uac80\uc99d",
+    "PDF \ubbf8\ub9ac\ubcf4\uae30 \uc751\ub2f5 \uc885\ub8cc\uc640 \uc0ac\uc5c5 \ubcf4\uad00\ud568 \uc6d0\uc790 \uc800\uc7a5 \ubcf4\uc644",
+    "\ucd5c\uc885 \ubc30\ud3ec EXE\ub97c Sunrise.EIASS.exe \ud55c \uac1c\ub85c \ud1b5\ud569\ud558\uace0 \uc11c\uba85 \ud6c4 \ud574\uc2dc\ub97c \uc7ac\uc0dd\uc131",
+    "\uc5c5\ub370\uc774\ud2b8 \uc2e4\ud328 \uc2dc \ud604\uc7ac EXE\ub97c \ubcf4\uc874\ud558\uace0 \ud574\ub2f9 \uac70\ub798 \ud3f4\ub354\ub9cc \uc815\ub9ac",
+    "\uce74\ub4dc\u00b7\uba54\ub274\u00b7\uadf8\ub8f9\ubcc4 UI \uc2a4\ud0c0\uc77c \uacbd\uacc4\uc640 \uc120\ud0dd \uc0c1\ud0dc \ubc84\ud2bc\u00b7\ud0ed \ub192\uc774 \ubcf4\uc644",
+    "PDF \ud30c\uc77c \uc804\ud658 \uc2dc \ubb38\uc11c \ubd84\ub958 \ud0ed \uc720\uc9c0 \ubc0f \ub2e4\uc911 \uc0ac\uc5c5\ubcc4 \ub2e4\uc6b4\ub85c\ub4dc \uc120\ud0dd \ud31d\uc5c5"
+  ]
 }
